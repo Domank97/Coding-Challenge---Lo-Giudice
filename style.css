@@ -1,0 +1,91 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo{
+  width: 200px;
+  display:block;
+  margin:0px auto;
+
+}
+
+.container{
+  width: 1000px;
+  margin: auto;
+}
+
+h1{
+  text-align:center;
+}
+
+header > h1 {
+  color: #00d221;
+  font-size: 40px
+
+}
+
+header > section{
+  display:block;
+  margin:0px auto;
+  text-align:center;
+  padding:10px;
+  color:#000;
+  background-color: #00d221;
+
+}
+
+.persona{
+  color: white;
+
+}
+
+p{
+  color: white;
+}
+
+.via:before{
+   content: ' \21A6';
+}
+
+ #barraarancione{
+  background: orange;
+  border: 0;
+  height: 30px;
+  width: 50%;
+  margin-inline-start: 1px;
+  border-radius: 5px;
+}
+
+#barraverde{
+  background: #00d221;
+  border: 0;
+  height: 30px;
+  width: 80%;
+  margin-inline-start: 1px;
+  border-radius: 5px;
+}
+
+#barrarossa{
+  background: #ff4040;
+  border: 0;
+  height: 30px;
+  width: 20%;
+  margin-inline-start: 1px;
+  border-radius: 5px;
+}
+
+
+.container{
+    background: rgba(0, 1, 0, 0.7);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000, endColorstr=#B2000000);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000, endColorstr=#B2000000)";
+    margin-block-start: 5em;
+    border-radius: 20px;
+}
+
+footer{
+  text-align:center;
+  color: white;
+}
